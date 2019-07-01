@@ -10,8 +10,8 @@ public class Solution {
         int b = in.nextInt();// location of the orange tree
         int m = in.nextInt();//distances at which each apple falls from the tree
         int n = in.nextInt();//distances at which each orange falls from the tree
-        int apples = 0;//the number of apples that fall on Sam's house
-        int oranges = 0;//the number of apples that fall on Sam's house
+        int apples = 0;//the number of apples that fall 
+        int oranges = 0;//the number of apples that fall
         for(int i=0;i<m;i++){
             int landing=in.nextInt()+a;
             if(landing>=s&&landing<=t){
